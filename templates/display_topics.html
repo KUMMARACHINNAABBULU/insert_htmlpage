@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>display_topics data</h1>
+    <table border="3px">
+        <tr><th>topic_name</th></tr>
+        {% for to in QSTO %}
+        <tr>
+            <td>{{to.topic_name}}</td>
+        </tr>
+        {% endfor %}
+
+
+
+
+
+
+    </table>
+</body>
+</html>
